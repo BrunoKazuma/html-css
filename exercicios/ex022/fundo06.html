@@ -10,12 +10,19 @@
             /* shorthand background */
 
             background: black url(https://img.freepik.com/fotos-gratis/foto-de-grande-angular-de-uma-unica-arvore-crescendo-sob-um-ceu-nublado-durante-um-por-do-sol-cercado-por-grama_181624-22807.jpg?w=2000) center center no-repeat fixed;
+
+            /* background-size não entra no shorthand pois poderá não carregar em  outros navegadores*/
+
             background-size: cover;
         }
         main{
-            background-color: white;
+            /* max-width para definir o valor maximo de aumento do main */
+
+            background-color: rgba(255, 255, 255, 0.507);
             max-width: 400px;
             padding: 10px;
+
+            /* margin auto para centralizar o main*/
             margin: auto;
             border-radius: 10px;
         }
