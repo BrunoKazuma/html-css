@@ -4,9 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 300px;
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid black;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
+    <h1>Mesclagem de Células</h1>
+    <table>
+            <tr>
+                <td>Paises</td>
+                <td colspan="2">Cidades</td>
+                
+            </tr>
+       
+       
+            <tr>
+                <td rowspan="3">Brasil</td>
+                
+                <td rowspan="2">Diadema</td>
+            </tr>
+            <tr>
+                
+                <td rowspan="2">B</td>
+                
+            </tr>
+      
+            <tr>
+                
+                <td>C</td>
+                <td >A</td>
+            </tr>
+       
+    </table>
     
 </body>
 </html>
